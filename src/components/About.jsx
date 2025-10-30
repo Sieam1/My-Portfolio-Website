@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import profile from '../assets/pics.jpg'
+import profile from '../assets/SIEAM.jpg'
 
 const skills = [
   { name: 'JavaScript', level: 90 },

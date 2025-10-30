@@ -139,7 +139,7 @@ const Contact = () => {
               <Instagram className='w-7 h-7' />
             </a>
             <a
-              href='https://t.me/yourusername'
+              href='https://www.instagram.com/iftekhar_sieam/?hl=en'
               target='_blank'
               rel='noopener noreferrer'
               className='hover:text-blue-400 transition-colors duration-300'
