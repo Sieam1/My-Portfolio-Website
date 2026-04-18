@@ -1,12 +1,37 @@
-# React + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated **Frontend Developer Portfolio** built with **React, Tailwind CSS, Framer Motion**, and modern UI design principles. This project showcases my skills, projects, and contact information in a clean and professional way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+👉 https://your-live-link.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- ⚡ Modern responsive UI (mobile + desktop friendly)
+- 🎨 Dark theme with animated floating background blobs
+- ✨ Smooth animations using Framer Motion
+- 🧠 Skills section with progress visualization
+- 💼 Projects showcase with live demo & GitHub links
+- 📩 Contact form integrated with EmailJS
+- 🔗 Social media integration
+- 🧭 Smooth navigation between sections
+- 📱 Fully mobile responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- Framer Motion
+- EmailJS
+- Lucide Icons
+- React Icons
+
+---
+
+## 📁 Project Structure

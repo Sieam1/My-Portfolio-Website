@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <nav className='fixed w-full bg-gradient-to-b from-[#0f172a] via-[#111827] to-[#0f172a]  backdrop-blur-md z-50 px-6 py-4 flex items-center justify-between'>
-      <div className='text-2xl font-bold text-white'>Iftekhar Sieam</div>
+      <div className='text-2xl font-bold text-white'>IFTEKHAR SIEAM</div>
 
       {/* Desktop Menu */}
       <ul className='hidden md:flex items-center gap-8 text-white font-medium'>

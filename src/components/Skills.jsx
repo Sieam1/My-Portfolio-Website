@@ -15,14 +15,19 @@ const Skills = () => {
   return (
     <section
       id='skills'
-      className='min-h-screen relative bg-gradient-to-b from-[#0f172a] via-[#111827] to-[#0f172a] text-white py-20 px-6'
+      className='relative min-h-screen bg-gradient-to-b from-[#0f172a] via-[#111827] to-[#0f172a] text-white py-20 px-6 overflow-hidden'
     >
-      {/* Animated Blobs */}
-      <div className='absolute -top-24 -left-24 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse -z-10'></div>
-      <div className='absolute -bottom-32 -right-20 w-96 h-96 bg-purple-600/20 rounded-full blur-2xl animate-pulse -z-10'></div>
+      {/* 🔥 SAME FLOATING BLOBS STYLE */}
+      <div className='absolute top-10 left-10 w-40 h-40 bg-[#FACC15]/30 rounded-full animate-[blob_10s_infinite]'></div>
+
+      <div className='absolute top-1/3 right-20 w-32 h-32 bg-[#6366F1]/20 rounded-full animate-[blob_10s_infinite] animation-delay-2000'></div>
+
+      <div className='absolute bottom-20 left-1/2 w-48 h-48 bg-[#F472B6]/20 rounded-full animate-[blob_10s_infinite] animation-delay-3000'></div>
+
+      <div className='absolute bottom-10 right-10 w-24 h-24 bg-[#FACC15]/20 rounded-full animate-[blob_10s_infinite] animation-delay-4000'></div>
 
       {/* Heading */}
-      <div className='max-w-4xl mx-auto text-center mb-16'>
+      <div className='relative z-10 max-w-4xl mx-auto text-center mb-16'>
         <motion.h2
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,6 +36,7 @@ const Skills = () => {
         >
           My <span className='text-blue-400'>Skills</span>
         </motion.h2>
+
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -42,7 +48,7 @@ const Skills = () => {
       </div>
 
       {/* Skills Grid */}
-      <div className='max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8'>
+      <div className='relative z-10 max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8'>
         {skills.map((skill, index) => (
           <motion.div
             key={index}
@@ -55,7 +61,13 @@ const Skills = () => {
               {skill.icon}
               <h3 className='text-xl font-semibold'>{skill.name}</h3>
             </div>
-            <p className='text-gray-400'>Level: <span className='text-blue-400 font-medium'>{skill.level}</span></p>
+
+            <p className='text-gray-400'>
+              Level:{' '}
+              <span className='text-blue-400 font-medium'>
+                {skill.level}
+              </span>
+            </p>
           </motion.div>
         ))}
       </div>
